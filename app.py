@@ -55,7 +55,7 @@ st.caption("Mountain Modern • Real Builds • Hospitality Ready")
 # Hero Image
 # --------------------
 st.image(
-    "front.png",
+    "images/front.png",
     caption="Floor-to-ceiling glass gable wall with alpine views"
 )
 
