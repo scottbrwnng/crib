@@ -61,6 +61,13 @@ FEATURES = [
     "🪟 Entire 16' wall of glass"
 ]
 
+
+st.audio(
+    '/Users/scottbrowning/deebo/audio/20081115_gucci maine - swing my door.mp4'
+    start_time=4,
+    autoplay=True
+)
+
 # --------------------
 # Header
 # --------------------
