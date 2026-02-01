@@ -10,6 +10,23 @@ st.set_page_config(
     layout="centered"
 )
 
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url("https://assets.squarespace.com/universal/images-v6/parking-page/backgrounds/img101-portrait.avif");
+        background-size: cover;
+        background-position: center center;  /* Centers the image */
+        background-repeat: no-repeat;
+        background-attachment: local; /* Ensures the background scrolls with content */
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
 # --------------------
 # Listing Data
 # --------------------
